@@ -3,7 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define mv = Character("Mysterious Voice", color="#be0202")
+define p = Character("Phoenix", color="#be0202")
 
 
 # The game starts here.
@@ -15,20 +16,31 @@ label start:
     # images directory to show it.
 
     scene bg room
-
+    play music "audio/spooky.mp3"
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    # show eileen happy
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    mv "oh, hello..."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    mv "welcome to my domain..."
 
-    e "now die"
+    mv "i have only one question..."
+
+    mv "are you ready to dance?"
+
+    stop music
+    scene bg dance
+    show phoenix stare at right
+    play music "audio/matador.mp3"
+
+    "..."
+
+    p "holdon... this isn't what i meant..."
 
     # This ends the game.
 
