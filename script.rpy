@@ -25,11 +25,11 @@ label start:
 
     # These display lines of dialogue.
 
-    mv "oh, hello..."
+    mv "oh"
 
-    mv "welcome to my domain..."
+    mv "no"
 
-    mv "i have only one question..."
+    mv "why are you here?"
 
     mv "are you ready to dance?"
 
