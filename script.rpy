@@ -3,8 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define mv = Character("Mysterious Voice", color="#be0202")
-define p = Character("Phoenix", color="#be0202")
+define mv = Character("...", color="#001aff")
+define p = Character("Phoenix", color="#940808")
 
 
 # The game starts here.
